@@ -1,0 +1,136 @@
+body
+{
+  	/*font: 87.5%/1.5em 'Open Sans', sans-serif;*/
+	margin: 0 auto;
+	background-image: url("images/1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+.container
+{
+	width: 450px;
+	height: 500px;
+	text-align: center;
+	margin: 0 auto;
+	/*background-color: rgba(44, 62, 80,0.5);*/
+	margin-top: 100px;
+	border-radius: 25px;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
+.container img
+{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+.container2
+{
+	background-color: rgba(44, 62, 80,0.5);
+	margin-top: 20px;
+	height: 50px;
+	font-size: 30px;
+	color: white;
+}
+
+h3{
+  font-size: 25px;
+  font-weight: 640;
+  margin-top: 0.5px;
+  margin-bottom: 0.1px;
+  color: #e7e7e7;
+  padding:6px;
+  font-family:'sans-serif','helvetica';
+}
+
+input[type="text"],input[type="password"],select
+{
+	margin-top: 20px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+	border: 1.5px solid green;
+  	border-radius: 20px;
+  	outline: none;
+  	background: transparent;
+}
+input[type="text"]{
+	background: transparent url("images/user.jpg") no-repeat;
+	background-position: 10px 50%;
+}
+input[type="password"]{
+	background: transparent url("images/pass.jpg") no-repeat;
+	background-position: 10px 50%;
+}
+input[type="text"]:focus,input[type="password"]:focus
+{
+	border: 1px solid red;
+	color: white;
+	/*background-color: lightblue;*/
+}
+select:focus
+{
+	border: 1px solid red;
+	color: white;
+}
+option
+{
+	background: transparent;
+} 
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+ 
+/*.form-input:nth-child(2)::before
+{
+	content: "\f023";
+}*/
+ 
+.btn-login
+{
+	background-color: #4CAF50;
+  	border: none;
+  	padding: 15px 30px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	margin: 30px 2px;
+  	transition-duration: 0.5s;
+  	border-radius: 15px;
+	cursor: pointer;
+	outline: none;
+}
+.btn1 
+{
+  background-color: green; 
+  color: black;
+  border: 1px solid white;
+}
+.btn1:hover 
+{
+  background-color: #003b00;
+  color: white;
+}
+.reminder {
+  text-align: center;
+}
+
+.reminder a {
+  color: red;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.reminder a:hover {
+  color: red;
+}
